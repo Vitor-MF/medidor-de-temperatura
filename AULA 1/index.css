@@ -1,0 +1,86 @@
+* {
+    padding: 10px;
+    margin: 50px;
+   box-sizing: border-box;
+   margin: 10px;
+}
+
+
+input{
+color: black;
+height: 50px;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-radius: 100px;
+background-color: floralwhite;
+text-align: center;
+justify-content: center;
+font-size: large;
+
+}
+
+
+body{
+margin: 150px;
+padding: 10px;
+display: flex;
+flex-direction: column;
+}
+
+
+
+button{height: 50px;
+ background-color: floralwhite;
+ border-radius: 100px;
+ font-size:large;
+}
+
+
+section#temperatura {
+margin-top: 50px;
+display:flex;
+flex-direction: row;
+width:100%;
+align-items:center;
+justify-content: space-evenly;
+
+
+
+}
+
+
+
+section#temperatura div{
+border:  1px solid black;
+width: 150px;
+height: 150px;
+font-size: large}
+
+
+select{
+ padding:0;
+ margin:0;
+ height: 50px;
+width: 100%;
+border-radius: 100px;
+background-color: floralwhite;
+text-align: center;
+justify-content: center;
+align-items: center;
+font-size: large;
+}
+
+div{background-color: floralwhite;
+border-radius: 20px;}
+
+h5{display: flex;
+    align-items: center;
+justify-content: center;}
+
+select#unidadeOrigem{
+   text-align: center;
+    justify-content: center;
+    font-size: large;
+}
